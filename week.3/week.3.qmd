@@ -7,5 +7,3 @@ editor: visual
 # use this to play with git and github
 
 explore \* revert \* reset
-
-OOPS
