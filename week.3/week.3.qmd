@@ -4,6 +4,10 @@ format: pdf
 editor: visual
 ---
 
+
+library(usethis)
+
+usethis::use_github()
 # use this to play with git and github
 
 explore \* revert \* reset
