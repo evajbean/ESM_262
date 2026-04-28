@@ -13,3 +13,5 @@ usethis::use_github()
 explore \* revert \* reset
 
 ## HELLO
+
+# having fun 
