@@ -4,24 +4,20 @@ format: pdf
 editor: visual
 ---
 
-
 library(usethis)
 
-usethis::use_github()
-# use this to play with git and github
+usethis::use_github() \# use this to play with git and github
 
 explore \* revert \* reset
 
 ## HELLO
 
-# having fun 
+# having fun
 
 # yay excellent!
 
 # WAHOOO
 
-
 # let's try this one more time!
-
 
 # experimenting in experiment branch
