@@ -25,6 +25,12 @@ siteNumbers <- c("14211720", "14211010", "14166000")
 parameterCd <- "00010"  # water temperature
 startDate <- "2010-01-01"
 endDate <- "2023-12-31"
+```
+
+```{r}
+#|label: data cleaning
+#|echo: true
+
 
 temp_data <- readNWISdv(siteNumbers, parameterCd, startDate, endDate)
 
@@ -35,6 +41,12 @@ temp_data$month = month(temp_data$Date, label=TRUE)
 temp_data$year = year(temp_data$Date)
 
 write.csv(temp_data, here("hw.week.5", "temp.data.csv"))
+```
+
+```{r}
+#| label: plot
+#| echo: false
+
 
 temp.data <- read.csv(here("hw.week.5", "temp.data.csv"))
 
